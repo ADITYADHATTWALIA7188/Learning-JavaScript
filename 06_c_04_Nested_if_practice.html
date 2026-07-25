@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested if</title>
+</head>
+<body>
+    <script>
+        let age = 20;
+        let hasId = true;
+        if(age>=8){
+            if(hasId == false){
+                console.log("Allowed To Drive");
+            } else if(age>=18 && hasId==false){
+                console.log(`Can not Drive !!Get Your Id first`);
+            }else{
+            console.log("UNDERAGE! Not Allowd to Drive")
+        }
+    }
+    </script>
+</body>
+</html>
